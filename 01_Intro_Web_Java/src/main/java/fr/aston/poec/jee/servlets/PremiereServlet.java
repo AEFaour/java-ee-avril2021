@@ -55,7 +55,7 @@ public class PremiereServlet extends HttpServlet {
 		String prenom = request.getParameter("prenom");
 		request.setAttribute("prenom", prenom);
 		
-		request.getRequestDispatcher("/premiere.jsp").forward(request, response);
+		request.getRequestDispatcher("/Newp.jsp").forward(request, response);
 
 	}
 

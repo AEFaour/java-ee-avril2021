@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="01_Intro_Web_Java:war exploded">
+    <output-path>$PROJECT_DIR$/01_Intro_Web_Java/target/01_Intro_Web_Java-1.0</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>01_Intro_Web_Java</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="01_Intro_Web_Java" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/01_Intro_Web_Java/target/01_Intro_Web_Java-1.0/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="01_Intro_Web_Java/web/Web" />
+    </root>
+  </artifact>
+</component>

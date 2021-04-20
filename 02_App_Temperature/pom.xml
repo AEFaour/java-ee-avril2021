@@ -7,14 +7,16 @@
 		<artifactId>javaee</artifactId>
 		<version>1.0</version>
 	</parent>
-	<artifactId>01_Intro_Web_Java</artifactId>
+	<artifactId>02_App_Temperature</artifactId>
 	<packaging>war</packaging>
-	<!-- <dependencies>
+	<properties>
+		<failOnMissingWebXml>false</failOnMissingWebXml>
+	</properties>
+	<dependencies>
 		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<version>4.0.1</version>
-			<scope>provided</scope>
+			<groupId>jstl</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
 		</dependency>
-	</dependencies> -->
+	</dependencies>
 </project>
