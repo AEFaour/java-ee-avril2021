@@ -9,6 +9,6 @@
 <body>
 <h1>${msg }</h1>
 	<h2>Il est actuellement ${heure }</h2>
-	<H3>Bienvenue  ${prenom } dans la galere de servlet</H3>
+	<h3>Bienvenue  ${prenom } dans la galere de servlet</h3>
 </body>
 </html>
